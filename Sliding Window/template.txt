@@ -1,0 +1,5 @@
+l,r = 0, 1
+*Book keeping
+while(r < len(arr)):
+    check window validity
+    -If invalid
