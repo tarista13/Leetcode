@@ -1,3 +1,17 @@
+""" Given two strings s & t, return true if t is an anagram of s, and false otherwise.
+
+    An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters
+    exactly once.
+
+    Ex 1:
+    Input: s = "anagram", t = "nagaram"
+    Output: True
+
+    Ex 2:
+    Input: s = "rat", t = "cat"
+    Output: False
+"""
+
 def isAnagram(s, t):
     #check to see if s != t:
         #return false

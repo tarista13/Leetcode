@@ -12,6 +12,7 @@ Output: False
 def containsDuplicate(nums):
     hashset = set()
 
+    # Iterate through the array
     for i in nums:
         if i in hashset:
             return True
